@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SummerSale</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Work sans font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .font-workSans {
+            font-family: 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="font-workSans">
+    <header class="bg-[#F9F6E2]">
+        <!-- <div class="py-20"> -->
+            <!-- <div class="flex sm:flex-col md:flex-col lg:flex-row gap-7 items-center justify-center bg-red-300 py-20 "> -->
+            <div class="grid sm:grid-cols-1  lg:grid-cols-2 gap-7 items-center">
+                <!-- First part: Description -->
+                <div class="text-center">
+                    <p class="text-3xl font-medium mb-11">---SALE FEVER---</p>
+                    <h1 class="font-bold text-6xl">
+                        Purchase TK 200 or<br>above & get <span class="text-[#E527B2]">20% off</span> 
+                    </h1>
+                    <div class="mt-16 flex gap-4 items-center justify-center">
+                        <p class="font-medium text-2xl">Use Promo Code</p>
+                        <button class="font-semibold text-2xl py-4 px-6 rounded-lg text-white bg-[#E527B2]">SELL200</button>
+                    </div>
+                </div>
+                <!-- Second part: Picture -->
+                <div>
+                    <img src="./images/Summer 1.png" alt="summer">
+                </div>
+            </div>
+        <!-- </div> -->
+    </header>
+
+    <main class="bg-[#F8F8F8] pt-32">
+        <!-- MainClass -->
+        <!-- <div class="2xl:mx-60 bg-red-100"> -->
+        <div class="grid grid-cols-1 place-items-center ">
+            <div class="grid gap-4 sm:grid-cols-1 xl:grid-cols-5">
+                <!-- All the card content -->
+                <div class="card-content  col-span-4">
+                    <!-- first row -->
+                    <div class="mb-14">
+                        <h1 class="text-4xl font-semibold mb-8">Kitchenware</h1>
+                        <div class="cards grid gap-6 sm:grid-cols-1 lg:grid-cols-3">
+                            <!-- first card -->
+                            <div id="each-card1" class="p-5 rounded-lg bg-white">
+                                <div class="img flex items-center justify-center mb-5 bg-slate-200 rounded-lg py-8 px-16">
+                                    <img src="./images/prod1.png" alt="prod1">
+                                </div>
+                                <div class="text-center">
+                                    <div class="icons mb-2">
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star-outline"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star-outline"></ion-icon>
+                                    </div>
+                                    <p id="name-of-item" class="text-xl font-semibold mb-2">K. Accessories</p>
+                                    <p class="text-xl font-normal text-gray-200"><span id="priceOfItem">39.00</span> TK
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end of single card -->
+                            <!-- 2nd card -->
+                            <div id="each-card2" class="p-5 rounded-lg bg-white">
+                                <div class="img flex items-center justify-center mb-5 bg-slate-200 rounded-lg py-8 px-16">
+                                    <img src="./images/prod2.png" alt="prod2">
+                                </div>
+                                <div class="text-center">
+                                    <div class="icons mb-2">
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star-outline"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star-outline"></ion-icon>
+                                    </div>
+                                    <p id="name-of-item" class="text-xl font-semibold mb-2">Grinder</p>
+                                    <p class="text-xl font-normal text-gray-200"><span id="priceOfItem">25.00</span> TK
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end of single card -->
+                            <!-- 3rd card -->
+                            <div id="each-card3" class="p-5 rounded-lg bg-white">
+                                <div class="img flex items-center justify-center mb-5 bg-slate-200 rounded-lg py-8 px-16">
+                                    <img src="./images/prod3.png" alt="prod3">
+                                </div>
+                                <div class="text-center">
+                                    <div class="icons mb-2">
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star-outline"></ion-icon>
+                                    </div>
+                                    <p id="name-of-item" class="text-xl font-semibold mb-2">Home Cooker</p>
+                                    <p class="text-xl font-normal text-gray-200"><span id="priceOfItem">49.00</span> TK
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end of single card -->
+                        </div>
+                    </div>
+                    <!-- end of first card row -->
+
+                    <!-- 2nd row -->
+                    <div class="mb-14">
+                        <h1 class="text-4xl font-semibold mb-8">Sportswear</h1>
+                        <div class="cards grid gap-6 sm:grid-cols-1 lg:grid-cols-3">
+                            <!-- first card -->
+                            <div id="each-card4" class="p-5 rounded-lg bg-white">
+                                <div class="img flex items-center justify-center mb-5 bg-slate-200 rounded-lg py-8 px-16">
+                                    <img src="./images/prod4.png" alt="prod4">
+                                </div>
+                                <div class="text-center">
+                                    <div class="icons mb-2">
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star-outline"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star-outline"></ion-icon>
+                                    </div>
+                                    <p id="name-of-item" class="text-xl font-semibold mb-2">Sports back Cap</p>
+                                    <p class="text-xl font-normal text-gray-200"><span id="priceOfItem">49.00</span> TK
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end of single card -->
+                            <!-- 2nd card -->
+                            <div id="each-card5" class="p-5 rounded-lg bg-white">
+                                <div class="img flex items-center justify-center mb-5 bg-slate-200 rounded-lg py-8 px-16">
+                                    <img src="./images/prod5.png" alt="prod5">
+                                </div>
+                                <div class="text-center">
+                                    <div class="icons mb-2">
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                    </div>
+                                    <p id="name-of-item" class="text-xl font-semibold mb-2">Full Jersey Set</p>
+                                    <p class="text-xl font-normal text-gray-200"><span id="priceOfItem">69.00</span> TK
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end of single card -->
+                            <!-- 3rd card -->
+                            <div id="each-card6" class="p-5 rounded-lg bg-white">
+                                <div class="img flex items-center justify-center mb-5 bg-slate-200 rounded-lg py-8 px-16">
+                                    <img src="./images/prod6.png" alt="prod6">
+                                </div>
+                                <div class="text-center">
+                                    <div class="icons mb-2">
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star-outline"></ion-icon>
+                                    </div>
+                                    <p id="name-of-item" class="text-xl font-semibold mb-2">Sports cates</p>
+                                    <p class="text-xl font-normal text-gray-200"><span id="priceOfItem">159.00</span> TK
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end of single card -->
+                        </div>
+                    </div>
+                    <!-- end of 2nd card row -->
+
+
+                    <!-- 3rd row -->
+                    <div class="mb-14">
+                        <h1 class="text-4xl font-semibold mb-8">Furniture</h1>
+                        <div class="cards grid gap-6 sm:grid-cols-1 lg:grid-cols-3">
+                            <!-- first card -->
+                            <div id="each-card7" class="p-5 rounded-lg bg-white">
+                                <div class="img flex items-center justify-center mb-5 bg-slate-200 rounded-lg py-8 px-16">
+                                    <img src="./images/prod7.png" alt="prod7">
+                                </div>
+                                <div class="text-center">
+                                    <div class="icons mb-2">
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                    </div>
+                                    <p id="name-of-item" class="text-xl font-semibold mb-2">Single Relax Chair</p>
+                                    <p class="text-xl font-normal text-gray-200"><span id="priceOfItem">185.00</span> TK
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end of single card -->
+                            <!-- 2nd card -->
+                            <div id="each-card8" class="p-5 rounded-lg bg-white">
+                                <div class="img flex items-center justify-center mb-5 bg-slate-200 rounded-lg py-8 px-16">
+                                    <img src="./images/prod8.png" alt="prod8">
+                                </div>
+                                <div class="text-center">
+                                    <div class="icons mb-2">
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                    </div>
+                                    <p id="name-of-item" class="text-xl font-semibold mb-2">Children Play</p>
+                                    <p class="text-xl font-normal text-gray-200"><span id="priceOfItem">299.00</span> TK
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end of single card -->
+                            <!-- 3rd card -->
+                            <div id="each-card9" class="p-5 rounded-lg bg-white">
+                                <div class="img flex items-center justify-center mb-5 bg-slate-200 rounded-lg py-8 px-16">
+                                    <img src="./images/prod9.png" alt="prod9">
+                                </div>
+                                <div class="text-center">
+                                    <div class="icons mb-2">
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star"></ion-icon>
+                                        <ion-icon class="w-6 h-6 text-yellow-500" name="star-outline"></ion-icon>
+                                    </div>
+                                    <p id="name-of-item" class="text-xl font-semibold mb-2">Flexible Sofa</p>
+                                    <p class="text-xl font-normal text-gray-200"><span id="priceOfItem">339.00</span> TK
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end of single card -->
+                        </div>
+                    </div>
+                    <!-- End of 3rd row -->
+                </div>
+
+
+
+
+
+
+                <!-- Cart -->
+                <div class="cart-purchase xl:inline-block  col-span-1 ">
+                    <div class="have-coupon p-5 bg-white rounded-lg mt-16 mb-6">
+                        <p class="font-medium text-2xl mb-4">Have coupon?</p>
+                        <div class="flex">
+                            <input id="coupon-code" class="p-4 w-40 border border-gray-300 rounded-l-lg" type="text" placeholder="Coupon Code">
+                            <button id="apply-btn" class="bg-[#E527B2] px-6 text-xl font-semibold rounded-r-lg text-white cursor-pointer hover:bg-[#ce23a0]" disabled>Apply</button>
+                        </div>
+                    </div>
+                    <div class="cart-items p-5 bg-white rounded-lg text-2xl font-medium relative">
+                        <div class="mb-2" id="list-of-cart-item">
+                            <!-- <p>1.Home Cooker</p>
+                            <p>1.Home Cooker</p>
+                            <p>1.Home Cooker</p> -->
+                        </div>
+                        <hr class="bg-gray-300">
+                        <div class="">
+                            <p>Total price: <span id="total-price" class="text-gray-300">0</span><span id="tk" class=" text-gray-300">TK</span></p>
+                            <p>Discount: <span id="discount" class="text-gray-300">0</span><span id="tk" class=" text-gray-300">TK</span></p>
+                            <p>Total: <span id="total" class="text-gray-300">0</span><span id="tk" class=" text-gray-300">TK</span></p>
+                        </div>
+                        <hr class="my-6 bg-gray-300">
+                        <!-- <button class="text-white bg-[#E527B2] py-4 text-base rounded-lg w-11/12 absolute -bottom-10 left-3">Make
+                            Purchase</button> -->
+                        <!-- modal -->
+                        <!-- Open the modal using ID.showModal() method -->
+                        <button id="make-purchase" class="btn text-white bg-[#E527B2] normal-case text-base rounded-lg w-11/12 absolute -bottom-10 left-3 hover:bg-[#ce23a0]" onclick="my_modal_1.showModal()" disabled>Make Purchase</button>
+                        <dialog id="my_modal_1" class="modal">
+                            <form method="dialog" class="modal-box">
+                                <div class="mb-8 flex items-center justify-center">
+                                    <img class="w-40 h-40" src="./images/congo.png" alt="congo">
+                                </div>
+                                <div class="flex flex-col gap-4 items-center mb-9">
+                                    <p class="text-5xl font-bold">Congratulations</p>
+                                    <p class="text-gray-300 text-xl">You Purchased the product</p>
+                                </div>
+                                <div class="modal-action flex justify-center">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button id="remove" class="btn bg-[#E527B2] text-white hover:bg-[#ce23a0]">Go Home</button>
+                                </div>                         
+                            </form>
+                        </dialog>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="./js/javascript.js"></script>
+</body>
+
+</html>
